@@ -47,3 +47,16 @@ Para eliminar archivos generados durante la compilación, puedes usar:
 ```bash
 make clean
 ```
+
+## Estructura del proyecto
+
+```bash
+/project
+ ├── main.cpp
+ ├── huffman.cpp / .h
+ ├── vigenere.cpp / .h
+ ├── threadpool.cpp / .h
+ ├── posix_utils.cpp / .h
+ ├── Makefile
+ └── README.md
+```
